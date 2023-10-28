@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - program that prints all possible different combinations of three digits
+ * main - program that prints possible different combinations of three digits
  *
  * Return: 0
  */
@@ -16,7 +16,7 @@ int main(void)
 		{
 			for (c = 50; c < 58; c++)
 			{
-				if (a > b && b > c)
+				if (a >= b && b >= c)
 					break;
 
 				else
