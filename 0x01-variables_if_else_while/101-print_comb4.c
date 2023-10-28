@@ -17,7 +17,7 @@ int main(void)
 			for (c = 50; c < 58; c++)
 			{
 				if (a >= b || b >= c)
-					break;
+					continue;
 
 				else
 				{
